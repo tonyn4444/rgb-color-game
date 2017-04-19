@@ -4,7 +4,7 @@ var middleware = require('../middleware');
 
 
 router.get('/', function(req, res) {
-	res.send('Hello');
+	res.render('color_game');
 })
 
 module.exports = router;
