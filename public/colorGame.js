@@ -90,9 +90,6 @@ for (i = 0; i < squares.length; i++) {
   }
 });
 
-
-
-
 for (i = 0; i < squares.length; i++) {
 	squares[i].style.background = colors[i]
 	squares[i].addEventListener("click", function() {
@@ -161,6 +158,9 @@ function displaySixSquares() {
     });
   }
 }
+
+$(document).ready(function() {
+});
 
 
 
